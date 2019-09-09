@@ -1,0 +1,32 @@
+{
+  "name": "hosp-sys",
+  "version": "1.0.0",
+  "description": "hospital management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shibiby/Hospital-Management-System.git"
+  },
+  "keywords": [
+    "HMS"
+  ],
+  "author": "Muhammad Feisal Shibiby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shibiby/Hospital-Management-System/issues"
+  },
+  "homepage": "https://github.com/Shibiby/Hospital-Management-System#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2"
+  }
+}
