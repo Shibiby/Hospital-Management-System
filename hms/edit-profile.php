@@ -24,7 +24,7 @@ $msg="Your Profile updated Successfully";
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>User | Edit Profile</title>
+		<title>Patient | Edit Profile</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -62,11 +62,11 @@ $msg="Your Profile updated Successfully";
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">User | Edit Profile</h1>
+									<h1 class="mainTitle">Patient | Edit Profile</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
-										<span>User </span>
+										<span>Patient </span>
 									</li>
 									<li class="active">
 										<span>Edit Profile</span>

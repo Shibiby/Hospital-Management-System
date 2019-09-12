@@ -95,7 +95,7 @@
 											<i class="ti-files"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Conatctus Queries </span><i class="icon-arrow"></i>
+											<span class="title"> Contact Us Queries </span><i class="icon-arrow"></i>
 										</div>
 									</div>
 								</a>
@@ -108,7 +108,7 @@
 									</li>
 
 									<li>
-										<a href="manage-users.php">
+										<a href="read-query.php">
 											<span class="title"> Read Query </span>
 										</a>
 									</li>

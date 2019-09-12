@@ -1,0 +1,72 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-link{
+    background-color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    color: #0087cc;
+    padding-top: 10px;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+  }
+.nav-item a{
+    color: #0087cc;
+}
+.nav-item:active{
+    background-color: ##0077b3;
+}
+
+.nav-social {
+    padding-right: 10px;
+    color: #0077b3;
+}
+.btn1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.front{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #00a9ff;
+    -moz-box-shadow: 10px 1px 15px rgba(68,68,68,0.6);
+	-webkit-box-shadow: 15px 15px 15px rgba(68,68,68,0.6);
+	box-shadow: 15px 15px 15px rgba(68,68,68,0.6);
+
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+    zoom: 1;
+    height: auto;
+}
+.btn1:hover{
+    text-decoration: none;
+}
+.front a{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+#book{
+    -moz-box-shadow: 10px 1px 15px rgba(68,68,68,0.6);
+	-webkit-box-shadow: 15px 15px 15px rgba(68,68,68,0.6);
+	box-shadow: 15px 15px 15px rgba(68,68,68,0.6);
+
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+    zoom: 1;
+    height: auto;
+}
+
+.about-body{
+    -moz-box-shadow: 10px 1px 15px rgba(68,68,68,0.6);
+	-webkit-box-shadow: 15px 15px 15px rgba(68,68,68,0.6);
+	box-shadow: 15px 15px 15px rgba(68,68,68,0.6);
+
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+    zoom: 1;
+    height: auto;
+}

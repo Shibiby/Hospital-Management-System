@@ -27,7 +27,7 @@ echo "<script>window.location.href ='forgot-password.php'</script>";
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Pateint  Password Recovery</title>
+		<title>Patient  Password Recovery</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -48,8 +48,8 @@ echo "<script>window.location.href ='forgot-password.php'</script>";
 	<body class="login">
 		<div class="row">
 			<div class="main-login col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
-				<div class="logo margin-top-30">
-				<a href="../index.html"><h2> HMS | Patient Password Recovery</h2></a>
+				<div class="logo margin-top-30 text-center">
+				<a href="../index.html"><h2> <u>MOBICLINIC</u> <br> Patient Password Recovery</h2></a>
 				</div>
 
 				<div class="box-login">
@@ -92,7 +92,7 @@ echo "<script>window.location.href ='forgot-password.php'</script>";
 					</form>
 
 					<div class="copyright">
-						&copy; <span class="current-year"></span><span class="text-bold text-uppercase"> HMS</span>. <span>All rights reserved</span>
+						&copy; <span class="current-year"></span><span class="text-bold text-uppercase"> <a href="mailto:info@mfm.co.ke">MOBICLINIC</a></span>. <span>All rights reserved</span>
 					</div>
 			
 				</div>

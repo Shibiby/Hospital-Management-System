@@ -54,7 +54,7 @@ exit();
 		<div class="row">
 			<div class="main-login col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 				<div class="logo margin-top-30">
-				<h2>Admin Login</h2>
+				<h2 class="text-center"><u>MOBICLINIC</u><br>Admin Login</h2>
 				</div>
 
 				<div class="box-login">
@@ -78,17 +78,20 @@ exit();
 									 </span>
 							</div>
 							<div class="form-actions">
+
 								
 								<button type="submit" class="btn btn-primary pull-right" name="submit">
 									Login <i class="fa fa-arrow-circle-right"></i>
 								</button>
+								<button class="btn btn-secondary pull-left"><a href="../../index.html">Back <i class="fa fa-arrow-circle-left"></i></a>
+
 							</div>
 							
 						</fieldset>
 					</form>
 
 					<div class="copyright">
-						&copy; <span class="current-year"></span><span class="text-bold text-uppercase"> HMS</span>. <span>All rights reserved</span>
+						&copy; <span class="current-year"></span><span class="text-bold text-uppercase"> <a href="mailto:info@mfm.co.ke">MOBICLINIC</a></span>. <span>All rights reserved</span>
 					</div>
 			
 				</div>

@@ -4,37 +4,122 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>MOBI CLINIC</title>
-	<link rel="shortcut icon" href="/images/icon.ico" />
+	<link rel="stylesheet" href="bootstrap/bootstrap/dist/css/bootstrap.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<title>MOBICLINIC</title>
+	
 
 <body>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<a class="navbar-brand" href="index.html">MOBI CLINIC</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-				  <span class="navbar-toggler-icon"></span>
-				</button>
+	<div class="topnav">
+		<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+			<a class="navbar-brand" href="index.html"><img src="images/horizontal-logo-cropped.png" alt="" width="200px;"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 			  
-				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-				  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+			<div class="collapse navbar-collapse" id="navbarToggler">
+				<ul class="navbar-nav mt-0 mt-lg-0 ml-auto mr-auto">
 					<li class="nav-item active">
-					  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link" href="#">Link</a>
+						<a class="nav-link" href="about.html">ABOUT</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+						<a class="nav-link" href="about.html">CONTACT</a>
 					</li>
-				  </ul>
-				  <form class="form-inline my-2 my-lg-0">
-					<input class="form-control mr-sm-2" type="search" placeholder="Search">
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				  </form>
+				</ul>
+				<ul class="navbar-nav" id="social">
+					<li class="nav-social">
+						<i class="fa fa-twitter-square fa-2x"></i>
+					</li>
+					<li class="nav-social">
+						<i class="fa fa-facebook-square fa-2x"></i>
+					</li>
+					<li class="nav-social">
+						<i class="fa fa-envelope-square fa-2x"></i>
+					</li>
+					
+				</ul>
+
+			</div>
+
+			
+
+		</nav>
+	</div>
+
+	<div class="body">
+		<div class="row" style="padding: 50px;">
+			<div class="col-sm-6 d-none d-lg-block">
+				<img src="images/bg1.jpg" class="img-fluid" alt="Responsive image"> 
+			</div>
+			<div class="col-sm-6" id="book">
+				<br>
+				<br>
+				<h1 class="text-center" style="font-family: forte; font-size: 50px;">Get An Appointment </h1>
+				<br>
+				<p style="text-align: center; font-family: 'Times New Roman', Times, serif;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque neque odit provident tempore possimus quisquam! A necessitatibus corrupti repellendus possimus, harum itaque facilis sequi. Numquam porro laborum ullam tempore hic. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident cum cumque at ad, reprehenderit delectus quaerat ratione repellendus nihil corrupti. Eveniet, nemo assumenda! Repellat sequi sunt optio magnam, error omnis.</p>
+				<img src="images/horizontal-logo-cropped.png" class="img-fluid img1" alt="Responsive image">
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 front" style="background-color: #0087cc;">
+				<a class="btn1 text-center" href="hms/user-login.php">
+					<br>
+					<br>
+					<h1>PATIENTS</h1>
+					<h3>Register and Book an Appointment!</h3>
+					<br>
+					<br>
+				</a>
+			</div>
+			<div class="col-md-4 front">
+					<a class="btn1 text-center" href="hms/doctor">
+						<br>
+						<br>
+						<h1>DOCTORS</h1>
+						<h3>Click Here To Log In!</h3>
+						<br>
+						<br>
+					</a>
+			</div>
+			<div class="col-md-4 front" style="background-color: #0087cc;">
+					<a class="btn1 text-center" href="hms/admin">
+						<br>
+						<br>
+						<h1>ADMIN</h1>
+						<h3>Click Here to Log In!</h3>
+						<br>
+						<br>
+					</a>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+			<div class="footer sticky-bottom" style="padding-top: 20px; padding-bottom: 10px; background-color: #ffffff;">
+				<div class="container-fluid text-center">
+					&copy; <span class="current-year">2019</span><span class="text-bold text-uppercase"> <a href="mailto:info@mfm">MOBICLINIC</a></span>. <span>All rights reserved</span>
 				</div>
-			  </nav>
+				<div class="pull-right">
+					<span class="go-top"><i class="ti-angle-up"></i></span>
+				</div>
+			</div>
+		</footer>
 
 
-			<script src="/js/custom.js"></script>
+		
+	
+
+			  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+			  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+			  <script src="/js/custom.js"></script>
 
 </body>
 </html>

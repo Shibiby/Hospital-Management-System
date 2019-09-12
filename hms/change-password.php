@@ -24,7 +24,7 @@ $_SESSION['msg1']="Old Password not match !!";
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>User  | change Password</title>
+		<title>Patient  | change Password</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -91,11 +91,11 @@ return true;
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">User | Change Password</h1>
+									<h1 class="mainTitle">Patient | Change Password</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
-										<span>User</span>
+										<span>Patient</span>
 									</li>
 									<li class="active">
 										<span>Change Password</span>

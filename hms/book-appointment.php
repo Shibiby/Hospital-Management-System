@@ -26,7 +26,7 @@ $query=mysqli_query($con,"insert into appointment(doctorSpecialization,doctorId,
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>User  | Book Appointment</title>
+		<title>Patient  | Book Appointment</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 		<meta name="apple-mobile-web-app-capable" content="yes">
@@ -92,11 +92,11 @@ function getfee(val) {
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">User | Book Appointment</h1>
+									<h1 class="mainTitle">Patient | Book Appointment</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
-										<span>User</span>
+										<span>Patient</span>
 									</li>
 									<li class="active">
 										<span>Book Appointment</span>

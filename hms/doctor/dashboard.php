@@ -51,7 +51,7 @@ check_login();
 																	</div>
 								<ol class="breadcrumb">
 									<li>
-										<span>User</span>
+										<span>Doctor</span>
 									</li>
 									<li class="active">
 										<span>Dashboard</span>

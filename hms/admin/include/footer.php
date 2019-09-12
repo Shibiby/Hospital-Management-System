@@ -1,10 +1,8 @@
 <footer>
-				<div class="footer-inner">
-					<div class="pull-left">
-						&copy; <span class="current-year"></span><span class="text-bold text-uppercase"> HMS</span>. <span>All rights reserved</span>
-					</div>
-					<div class="pull-right">
-						<span class="go-top"><i class="ti-angle-up"></i></span>
-					</div>
+			<div class="footer" style="padding-top: 20px; padding-bottom: 10px;">
+				<div class="container-fluid text-center">
+					&copy; <span class="current-year">2019</span><span class="text-bold text-uppercase"> <a href="mailto:info@mfm.co.ke">MOBICLINIC</a></span>. <span>All rights reserved</span>
 				</div>
-			</footer>
+				
+			</div>
+		</footer>

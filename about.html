@@ -1,137 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="bootstrap/bootstrap/dist/css/bootstrap.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<title>MOBI CLINIC</title>
+	
 
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Hospital Management System</title>
-		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
-		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/responsiveslides.css">
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-		<script src="js/responsiveslides.min.js"></script>
-		  <script>
-		    // You can also use "$(window).load(function() {"
-			    $(function () {
+<body>
+	<div class="topnav">
+		<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+			<a class="navbar-brand" href="index.html"><img src="images/horizontal-logo-cropped.png" alt="" width="200px;"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			  
+			<div class="collapse navbar-collapse" id="navbarToggler">
+				<ul class="navbar-nav mt-0 mt-lg-0 ml-auto mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="about.html">ABOUT</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.php">CONTACT</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav" id="social">
+					<li class="nav-social">
+						<i class="fa fa-twitter-square fa-2x"></i>
+					</li>
+					<li class="nav-social">
+						<i class="fa fa-facebook-square fa-2x"></i>
+					</li>
+					<li class="nav-social">
+						<i class="fa fa-envelope-square fa-2x"></i>
+					</li>
+					
+				</ul>
+
+			</div>
+
 			
-			      // Slideshow 1
-			      $("#slider1").responsiveSlides({
-			        maxwidth: 1600,
-			        speed: 600
-			      });
-			});
-		  </script>
-	</head>
-	<body>
-		<!--start-wrap-->
-		
-			<!--start-header-->
-			<div class="header">
-				<div class="wrap">
-				<!--start-logo-->
-				<div class="logo">
-					<a href="index.html" style="font-size: 30px;">Hospital Management system</a>
-				</div>
-				<!--end-logo-->
-				<!--start-top-nav-->
-				<div class="top-nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
 
-						<li class="active"><a href="about.html">About</a></li>
+		</nav>
+	</div>
 
-						
-						<li><a href="contact.php">contact</a></li>
-
-					</ul>					
-				</div>
-				<div class="clear"> </div>
-				<!--end-top-nav-->
-			</div>
-			<!--end-header-->
+	<div class="about-body" style="margin-left: 50px; margin-right: 50px;">
+		<div class="logo">
+			<img class="image-responsive" src="images/vertical-logo.png" width="100%;">
 		</div>
-		<div class="clear"> </div>
-			<!--start-image-slider---->
-					<div class="image-slider">
-						<!-- Slideshow 1 -->
-					    <ul class="rslides" id="slider1">
-					      <li><img src="images/slider-image1.jpg" alt=""></li>
-					      <li><img src="images/slider-image2.jpg" alt=""></li>
-					      <li><img src="images/slider-image1.jpg" alt=""></li>
-					    </ul>
-						 <!-- Slideshow 2 -->
-					</div>
-					<!--End-image-slider---->
-		    <div class="clear"> </div>
-		    <div class="content-grids">
-		    	<div class="wrap">
-		    	<div class="section group">
-								
-							
-				<div class="listview_1_of_3 images_1_of_3">
-					<div class="listimg listimg_1_of_2">
-						  <img src="images/grid-img3.png">
-					</div>
-					<div class="text list_1_of_2">
-						  <h3>Patients</h3>
-						  <p>Register & Book Appointment</p>
-						  <div class="button"><span><a href="hms/user-login.php">Click Here</a></span></div>
-				    </div>
-				</div>	
-
-				<div class="listview_1_of_3 images_1_of_3">
-					<div class="listimg listimg_1_of_2">
-						  <img src="images/grid-img1.png">
-					</div>
-					<div class="text list_1_of_2">
-						  <h3>Doctors Login</h3>
-						
-						  <div class="button"><span><a href="hms/doctor/">Click Here</a></span></div>
-					</div>
-				</div>
+		<div class="about text-center">
+			<h1>Content To Be Published!</h1>
+		</div>
+	</div>
 
 
-					<div class="listview_1_of_3 images_1_of_3">
-					<div class="listimg listimg_1_of_2">
-						  <img src="images/grid-img2.png">
-					</div>
-					<div class="text list_1_of_2">
-						  <h3>Admin Login</h3>
-						
-						  <div class="button"><span><a href="hms/admin">Click Here</a></span></div>
-				     </div>
-				</div>			
+	<footer>
+		<div class="footer sticky-bottom" style="padding-top: 20px; padding-bottom: 10px;">
+			<div class="container-fluid text-center">
+				&copy; <span class="current-year">2019</span><span class="text-bold text-uppercase"> <a href="mailto:info@mfm">MOBICLINIC</a></span>. <span>All rights reserved</span>
 			</div>
-		    </div>
-		   </div>
-		   <div class="wrap">
-		   <div class="content-box">
-		   <div class="section group">
-				<div class="col_1_of_3 span_1_of_3 frist">
-				
-				</div>
-				<div class="col_1_of_3 span_1_of_3 second">
-					
-				</div>
-				<div class="col_1_of_3 span_1_of_3 frist">
-					
-					
-				</div>
+			<div class="pull-right">
+				<span class="go-top"><i class="ti-angle-up"></i></span>
 			</div>
-		   </div>
-		   </div>
-		   <div class="clear"> </div>
-		   <div class="footer">
-		   	 <div class="wrap">
-		   	<div class="footer-left">
-		   			<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="contact.php">contact</a></li>
-					</ul>
-		   	</div>
-		   
-		   	<div class="clear"> </div>
-		   </div>
-		   </div>
-		<!--end-wrap-->
-	</body>
+		</div>
+	</footer>
+
+	
+
+		
+	
+
+			  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+			  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+			  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+			  <script src="/js/custom.js"></script>
+
+</body>
 </html>
-
