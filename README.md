@@ -2,7 +2,7 @@
  A hospital management and appointment system using php
 
 database name - hms
-change the database username and password to your matches
+change the database username and password to your matches in config.php file in the include folder
 
 ADMIN-	Username- admin
 	Password - admin123
